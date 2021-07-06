@@ -8,7 +8,7 @@ h1 {
 .orange-color {
   color: orange;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -29,4 +29,20 @@ section {
 }
 .about-me {
   background-image: url(shapes/7.png);
+}
+.my-recipies {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px whitesmoke;
+}
+footer p {
+  text-align: center;
+  background-color: darkslategrey;
+}
+footer h1 {
+  text-align: center;
+  background-color: darkslategrey;
 }
